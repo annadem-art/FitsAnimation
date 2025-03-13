@@ -359,14 +359,13 @@ text-transform: uppercase;
 text-transform: uppercase;
 }
 
-/* Media Queries for Responsiveness */
 @media (min-width: 930px) {
   .header__nav {
-      display: block; /* Show navigation on larger screens */
+      display: block;
   }
 
   .header__top {
-      flex-direction: row; /* Back to row layout */
+      flex-direction: row;
   }
 }
 @media (max-width: 550px) {
